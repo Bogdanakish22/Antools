@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,900;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -14,8 +20,120 @@
     />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header class="header">
+      <img src="./img/Group 159.png" alt="antools." class="header-img" />
+      <a class="header-link" href="#">antools.</a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Home</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Categories</a>
+            <img src="./img/chevron-down.png" alt="Categories" />
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">My Collections</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="login-list">
+        <li class="login-item"><a href="#" class="Login-link">Login</a></li>
+        <li class="login-item">
+          <button class="Login-button">Sign Up</button>
+        </li>
+      </ul>
+      <div class="user">
+        <h1 class="user-title">Awesome tools for Designer & Developer.</h1>
+        <p class="user-text">
+          Antool is a web collection of information on paid or free Design and
+          Development tools
+        </p>
+        <form action="/search" method="get" class="user-form">
+          <img src="./img/search.png" alt="search">
+            <input class="user-input" type="search" name="q" placeholder="find more than 430+ tools..." />
+            <button type="submit" class="user-button">Search</button>
+      </div>
+      <ul class="login-icon-list">
+        <li class="login-icon-item">
+          <img src="./img/bx_bxl-facebook.png" alt="icon-facebook" class="login-icon-img">
+        </li>
+        <li class="login-icon-item">
+          <img src="./img/bx_bxl-instagram.png" alt="instagram-icon" class="login-icon-img">
+        </li>
+        <li class="login-icon-item">
+          <img src="./img/bx_bxl-twitter.png" alt="twitter-icon" class="login-icon-img">
+        </li>
+      </ul>
+      </header>
+      <main>
+      <section class="hero container">
+        <h2 class="hero-title">Most Popular Tools</h2>
+        <p class="hero-text">Tools for the best Designers and Developers most popularly used in the world</p>
+        <div class="programs">
+        <ul class="hero-programs-list">
+        <li class="hero-programs-item">
+          <img src="./img/grommet-icons_figma.png" alt="FIGMA" class="hero-programs-img">
+          <h3 class="hero-programs-title">FIGMA</h3>
+          <h5 class="hero-programs-subject">Free</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+        <li class="hero-programs-item">
+          <img src="./img/logos_sketch.png" alt="Sketch" class="hero-programs-img">
+          <h3 class="hero-programs-title">Sketch</h3>
+          <h5 class="hero-programs-subject">Trial & Paid</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+        <li class="hero-programs-item">
+          <img src="./img/logos_visual-studio-code.png" alt="Visual Studio Code" class="hero-programs-img">
+          <h3 class="hero-programs-title">Visual Studio Code</h3>
+          <h5 class="hero-programs-subject">Free</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+        <li class="hero-programs-item">
+          <img src="./img/notion.png" alt="Notion" class="hero-programs-img">
+          <h3 class="hero-programs-title">Notion</h3>
+          <h5 class="hero-programs-subject">Free & Paid</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+        <li class="hero-programs-item">
+          <img src="./img/grommet-icons_slack.png" alt="Slack" class="hero-programs-img">
+          <h3 class="hero-programs-title">Slack</h3>
+          <h5 class="hero-programs-subject">Free & Paid</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+        <li class="hero-programs-item">
+          <img src="./img/logos_invision-icon.png" alt="Invision" class="hero-programs-img">
+          <h3 class="hero-programs-title">Invision</h3>
+          <h5 class="hero-programs-subject">Free & Paid</h5>
+          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
+          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
+          <button class="hero-programs-button">Visit</button>
+        </li>
+      </ul>
+      <button class="hero-programs-btn">Load more</button>
+      </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
