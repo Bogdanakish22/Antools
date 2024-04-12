@@ -6,11 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,900;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600& amp;family=Roboto& amp;display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
@@ -18,10 +17,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="header">
-      <img src="./img/Group 159.png" alt="antools." class="header-img" />
+      <img src="./img/header-antools.png" alt="antools." class="header-img" />
       <a class="header-link" href="#">antools.</a>
       <nav class="header-nav">
         <ul class="header-nav-list">
@@ -30,7 +30,7 @@
           </li>
           <li class="header-nav-item">
             <a href="#" class="header-nav-link">Categories</a>
-            <img src="./img/chevron-down.png" alt="Categories" />
+            <img src="./img/header-swaip.png" alt="Categories" />
           </li>
           <li class="header-nav-item">
             <a href="#" class="header-nav-link">My Collections</a>
@@ -46,111 +46,314 @@
           <button class="Login-button">Sign Up</button>
         </li>
       </ul>
-      <div class="user">
-        <h1 class="user-title">Awesome tools for Designer & Developer.</h1>
-        <p class="user-text">
-          Antool is a web collection of information on paid or free Design and
-          Development tools
+    </header>
+    <main>
+      <section class="hero">
+        <div class="user">
+          <h1 class="user-title">Awesome tools for Designer & Developer.</h1>
+          <p class="user-text">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+          <form class="user-bunner-form">
+  <div class="user-bunner-input-wrap">
+    <input type="bunner-text" class="user-bunner-input" placeholder="find more than 430+ tools..."/>
+    <button type="button" class="user-bunner-btn">Search</button>
+          </div>
+        </form>
+        <ul class="hero-icon-list">
+          <li class="hero-icon-item">
+            <img
+              src="./img/hero-icons1.png"
+              alt="icon-facebook"
+              class="hero-icon-img"
+            />
+          </li>
+          <li class="hero-icon-item">
+            <img
+              src="./img/hero-icons2.png"
+              alt="instagram-icon"
+              class="hero-icon-img"
+            />
+          </li>
+          <li class="hero-icon-item">
+            <img
+              src="./img/hero-icons3.png"
+              alt="twitter-icon"
+              class="hero-icon-img"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="popular container">
+        <h2 class="popular-title">Most Popular Tools</h2>
+        <p class="popular-text">
+          Tools for the best Designers and Developers most popularly used in the
+          world
         </p>
-        <form action="/search" method="get" class="user-form">
-          <img src="./img/search.png" alt="search">
-            <input class="user-input" type="search" name="q" placeholder="find more than 430+ tools..." />
-            <button type="submit" class="user-button">Search</button>
-      </div>
-      <ul class="login-icon-list">
-        <li class="login-icon-item">
-          <img src="./img/bx_bxl-facebook.png" alt="icon-facebook" class="login-icon-img">
-        </li>
-        <li class="login-icon-item">
-          <img src="./img/bx_bxl-instagram.png" alt="instagram-icon" class="login-icon-img">
-        </li>
-        <li class="login-icon-item">
-          <img src="./img/bx_bxl-twitter.png" alt="twitter-icon" class="login-icon-img">
-        </li>
-      </ul>
-      </header>
-      <main>
-      <section class="hero container">
-        <h2 class="hero-title">Most Popular Tools</h2>
-        <p class="hero-text">Tools for the best Designers and Developers most popularly used in the world</p>
         <div class="programs">
-        <ul class="hero-programs-list">
-        <li class="hero-programs-item">
-          <img src="./img/grommet-icons_figma.png" alt="FIGMA" class="hero-programs-img">
-          <h3 class="hero-programs-title">FIGMA</h3>
-          <h5 class="hero-programs-subject">Free</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-        <li class="hero-programs-item">
-          <img src="./img/logos_sketch.png" alt="Sketch" class="hero-programs-img">
-          <h3 class="hero-programs-title">Sketch</h3>
-          <h5 class="hero-programs-subject">Trial & Paid</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-        <li class="hero-programs-item">
-          <img src="./img/logos_visual-studio-code.png" alt="Visual Studio Code" class="hero-programs-img">
-          <h3 class="hero-programs-title">Visual Studio Code</h3>
-          <h5 class="hero-programs-subject">Free</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-        <li class="hero-programs-item">
-          <img src="./img/notion.png" alt="Notion" class="hero-programs-img">
-          <h3 class="hero-programs-title">Notion</h3>
-          <h5 class="hero-programs-subject">Free & Paid</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-        <li class="hero-programs-item">
-          <img src="./img/grommet-icons_slack.png" alt="Slack" class="hero-programs-img">
-          <h3 class="hero-programs-title">Slack</h3>
-          <h5 class="hero-programs-subject">Free & Paid</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-        <li class="hero-programs-item">
-          <img src="./img/logos_invision-icon.png" alt="Invision" class="hero-programs-img">
-          <h3 class="hero-programs-title">Invision</h3>
-          <h5 class="hero-programs-subject">Free & Paid</h5>
-          <p class="hero-programs-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="./img/flat-color-icons_like.png" alt="like" class="hero-programs-image">
-          <img src="./img/eva_folder-add-outline.png" alt="download" class="hero-programs-pic">
-          <button class="hero-programs-button">Visit</button>
-        </li>
-      </ul>
-      <button class="hero-programs-btn">Load more</button>
-      </div>
+          <ul class="popular-programs-list">
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular1.png"
+                alt="FIGMA"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">FIGMA</h3>
+              <h5 class="popular-programs-subject">Free</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular2.png"
+                alt="Sketch"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">Sketch</h3>
+              <h5 class="popular-programs-subject">Trial & Paid</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular3.png"
+                alt="Visual Studio Code"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">Visual Studio Code</h3>
+              <h5 class="popular-programs-subject">Free</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular4.png"
+                alt="Notion"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">Notion</h3>
+              <h5 class="popular-programs-subject">Free & Paid</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular5.png"
+                alt="Slack"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">Slack</h3>
+              <h5 class="popular-programs-subject">Free & Paid</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+            <li class="popular-programs-item">
+              <img
+                src="./img/popular6.png"
+                alt="Invision"
+                class="popular-programs-img"
+              />
+              <h3 class="popular-programs-title">Invision</h3>
+              <h5 class="popular-programs-subject">Free & Paid</h5>
+              <p class="popular-programs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <img
+                src="./img/popular-team-like.png"
+                alt="like"
+                class="popular-programs-image"
+              />
+              <img
+                src="./img/popular-team-outline.png"
+                alt="download"
+                class="popular-programs-pic"
+              />
+              <button class="popular-programs-button">Visit</button>
+            </li>
+          </ul>
+          <button class="popular-programs-btn">Load more</button>
+        </div>
       </section>
       <section class="work container">
         <h3 class="work-title">Trusted more than 150+ brand</h3>
         <ul class="work-list">
           <li class="work-item">
-            <img src="./img/logos_microsoft.png" alt="microsoft" class="work-img">
+            <img src="./img/work1.png" alt="microsoft" class="work-img" />
           </li>
           <li class="work-item">
-            <img src="./img/logos_google.png" alt="google" class="work-img">
+            <img src="./img/work2.png" alt="google" class="work-img" />
           </li>
           <li class="work-item">
-            <img src="./img/logos_slack.png" alt="slack" class="work-img">
+            <img src="./img/work3.png" alt="slack" class="work-img" />
           </li>
           <li class="work-item">
-            <img src="./img/logos_wordpress.png" alt="wordpress" class="work-img">
+            <img
+              src="./img/work4.png"
+              alt="wordpress"
+              class="work-img"
+            />
           </li>
         </ul>
       </section>
+      <section class="team">
+        <h3 class="team-title">Newcomer Tools</h3>
+        <p class="team-text">
+          Wow! see the latest update of the most recommended tools from reliable
+          designers and developers
+        </p>
+        <button class="team-button">Explore more</button>
+        <ul class="team-list">
+          <li class="team-item">
+            <img src="./img/team1.png" alt="Zeplin" />
+            <h3 class="team-item-title">Zeplin</h3>
+            <h5 class="team-item-subject">Free & Paid</h5>
+            <p class="team-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="./img/popular-team-like.png" alt="like" />
+            <img src="./img/popular-team-outline.png" alt="outline" />
+            <button class="team-item-button">Visit</button>
+          </li>
+          <li class="team-item">
+            <img src="./img/team2.png" alt="PHPStorm" />
+            <h3 class="team-item-title">PHPStorm</h3>
+            <h5 class="team-item-subject">Free</h5>
+            <p class="team-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="./img/popular-team-like.png" alt="like" />
+            <img src="./img/popular-team-outline.png" alt="outline" />
+            <button class="team-item-button">Visit</button>
+          </li>
+          <li class="team-item">
+            <img src="./img/team3.png" alt="Toolbox" />
+            <h3 class="team-item-title">Toolbox</h3>
+            <h5 class="team-item-subject">Free</h5>
+            <p class="team-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="./img/popular-team-like.png" alt="like" />
+            <img src="./img/popular-team-outline.png" alt="outline" />
+            <button class="team-item-button">Visit</button>
+          </li>
+          <li class="team-item">
+            <img src="./img/team4.png" alt="Procreate" />
+            <h3 class="team-item-title">Procreate</h3>
+            <h5 class="team-item-subject">Paid</h5>
+            <p class="team-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="./img/popular-team-like.png" alt="like" />
+            <img src="/img/popular-team-outline.png" alt="outline" />
+            <button class="team-item-button">Visit</button>
+          </li>
+        </ul>
+      </section>
+      <section class="feature">
+        <img src="./img/feature-mann.png" alt="mann" class="feature-img"/>
+        <img src="./img/feature-arrow1.png" alt="chevron" class="feature-pic"/>
+        <img src="./img/feature-arrow2.png" alt="chevron" class="feature-pic"/>
+        <h4 class="feature-title">Ronald Richards</h4>
+        <h5 class="feature-subject">Product Manager</h5>
+        <p class="feature-text">
+          Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+          reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
+          velit labore occaecat do deserunt Lorem magna officia incididunt
+          consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
+          Occaecat aute officia excepteur non laboris id qui ad.
+        </p>
+        <img src="./img/feature-transition.png" alt="group" class="feature-image"/>
+      </section>
+      <section class="Become">
+        <h2 class="become-title">Become a contributor?</h2>
+        <p class="become-text">
+          Join us and get tips & tricks to become a great Designer and Developer
+        </p>
+        <form class="become-bunner-form">
+    <div class="become-bunner-input-wrap">
+    <input type="bunner-text" class="become-bunner-input" placeholder="find more than 430+ tools..."/>
+    <button type="button" class="become-bunner-btn">Search</button>
+          </div>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <ul class="footer-list">
+      <li class="footer-item">
+        <h4 class="footer-title">Copyright 2021. Antools</h4>
+        <p class="footer-text">Antool is a web collection of information on paid or free Design and Development tools</p>
+      </li>
+      <li class="footer-item">
+        <h4 class="footer-title">Contact Us</h4>
+        <a href="#" class="footer-link">+621987463</a>
+        <a href="#" class="footer-link">M Building, No.10 A</a>
+        <a href="#" class="footer-link">antools@awesome.com</a>
+      </li>
+      <li class="footer-item">
+        <h4 class="footer-title">Categories</h4>
+        <a href="#" class="footer-link">Design</a>
+        <a href="#" class="footer-link">Development</a>
+      </li>
+      <li class="footer-item">
+        <h4 class="footer-title">Company Info</h4>
+        <a href="#" class="footer-link">About Us</a>
+        <a href="#" class="footer-link">Our Partners</a>
+        <a href="#" class="footer-link">Blog</a>
+      </li>
+      </ul>
+    </footer>
   </body>
 </html>
