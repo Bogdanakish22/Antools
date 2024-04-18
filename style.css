@@ -68,6 +68,9 @@ body {
   font-weight: 500;
   line-height: normal;
 }
+.header-nav-link:hover {
+  background: #ff6e30;
+}
 .login-list {
   display: flex;
   gap: 41px;
