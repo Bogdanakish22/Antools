@@ -24,7 +24,7 @@ body {
   font-family: Poppins;
   background: #1e252b;
 }
-.conteiner {
+.container {
   width: 1224px;
   padding: 0 15px;
   margin: 0 auto;
@@ -195,28 +195,27 @@ body {
   font-weight: 500;
   line-height: 130%; /* 62.4px */
 }
-.popular-text {
+.popular-sub-text {
   color: rgba(255, 255, 255, 0.55);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
   text-align: center;
+  padding: 0 392px;
 }
 .programs {
 }
-.popular-programs-list {
+.popular-list {
   display: flex;
-  gap: 24px;
+  gap: 95px 25px;
   flex-wrap: wrap;
   border-radius: 15px;
   background: #1e252b;
-  margin: 0 108px;
   padding-top: 110px;
-  padding-bottom: 100px;
-  margin-bottom: 33px;
 }
-.popular-programs-item {
+.popular-item {
+  flex-basis: calc((100% - 3 * 25px) / 3);
   width: 392px;
   height: 294px;
   flex-shrink: 0;
@@ -225,42 +224,59 @@ body {
   padding-top: 34px;
   padding-left: 33px;
 }
-.popular-programs-item:hover {
+.popular-item:hover {
   border-radius: 15px;
   border: 2px solid rgba(255, 255, 255, 0.8);
   background: rgba(40, 48, 54, 0.6);
   backdrop-filter: blur(25px);
 }
-.popular-programs-img {
+.popular-wrap-content {
+  display: flex;
 }
-.popular-programs-title {
+.popular-img {
+}
+.popular-wrap {
+}
+.popular-title {
   color: rgba(255, 255, 255, 0.78);
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  padding-left: 30px;
 }
-.popular-programs-subject {
+.popular-subject {
   color: rgba(255, 165, 55, 0.55);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-left: 30px;
 }
-.popular-programs-text {
+.popular-text {
   color: rgba(255, 255, 255, 0.55);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 187.5% */
 }
-.popular-programs-image {
-  padding-top: 30px;
+.popular-wrap-icon {
+  display: flex;
+}
+.popular-icon-hard {
+  background-image: url(./img/popular-team-like.png);
+  width: 28px;
+  height: 28px;
+}
+.popular-icon-folder {
+  background-image: url(./img/popular-team-outline.png);
+  width: 28px;
+  height: 28px;
 }
 
-.popular-programs-pic {
+.popular-pic {
 }
-.popular-programs-button {
+.popular-button {
   color: rgba(255, 255, 255, 0.55);
   border-radius: 8px;
   background: #1e252b;
@@ -270,11 +286,11 @@ body {
   line-height: normal;
   margin-left: 124px;
 }
-.popular-programs-button:hover {
+.popular-button:hover {
   border-radius: 8px;
   background: #ff6e30;
 }
-.popular-programs-btn {
+.popular-btn {
   color: #ff6e30;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -283,8 +299,15 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-left: 520px;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 .work {
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background: rgba(44, 53, 61, 0.2);
+  backdrop-filter: blur(25px);
+  padding-left: 82px;
 }
 .work-title {
   color: rgba(255, 255, 255, 0.8);
@@ -292,14 +315,22 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  text-align: center;
+  padding-bottom: 56px;
+  border-radius: 25px;
+  padding-top: 55px;
 }
 .work-list {
+  display: flex;
+  gap: 107px;
 }
 .work-item {
 }
 .work-img {
+  padding-bottom: 57px;
 }
 .team {
+  height: 638px;
 }
 .team-title {
   color: rgba(255, 255, 255, 0.9);
@@ -307,6 +338,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 130%; /* 62.4px */
+  margin-top: 220px;
+  padding-bottom: 30px;
 }
 .team-text {
   color: rgba(255, 255, 255, 0.55);
@@ -314,6 +347,8 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 30px; /* 166.667% */
+  width: 427px;
+  padding-bottom: 60px;
 }
 .team-button {
   color: #fff;
@@ -323,10 +358,33 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 318px;
 }
 .team-list {
+  display: flex;
 }
 .team-item {
+  flex-basis: calc((100% - 3 * 25px) / 3);
+  width: 392px;
+  height: 294px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #1e252b;
+  padding-top: 34px;
+  padding-left: 33px;
+}
+.team-item:hover {
+  border-radius: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(25px);
+}
+.team-wrap-content {
+  display: flex;
+}
+.team-item-img {
+}
+.team-wrap {
 }
 .team-item-title {
   color: rgba(255, 255, 255, 0.78);
@@ -348,6 +406,19 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 214.286% */
+}
+.team-wrap-icon {
+  display: flex;
+}
+.team-icon-hard {
+  background-image: url(./img/popular-team-like.png);
+  width: 28px;
+  height: 28px;
+}
+.team-icon-folder {
+  background-image: url(./img/popular-team-outline.png);
+  width: 28px;
+  height: 28px;
 }
 .team-item-button {
   color: rgba(255, 255, 255, 0.55);
@@ -402,6 +473,8 @@ body {
 .Become {
 }
 .become-title {
+  margin-top: 250px;
+  padding-bottom: 25px;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 48px;
@@ -410,6 +483,9 @@ body {
   line-height: 130%; /* 62.4px */
 }
 .become-text {
+  width: 427px;
+  margin-left: 375px;
+  padding-bottom: 100px;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
   font-size: 18px;
@@ -418,6 +494,8 @@ body {
   line-height: 30px; /* 166.667% */
 }
 .become-bunner-form {
+  margin-left: 335px;
+  margin-bottom: 250px;
 }
 .become-bunner-input-wrap {
   position: relative;
@@ -465,7 +543,11 @@ body {
   border-radius: 8px;
   background-color: #ff6e30;
 }
+.line {
+  background: rgba(255, 255, 255, 0.15);
+}
 .footer {
+  margin-top: 73px;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.9);
@@ -475,6 +557,7 @@ body {
   line-height: normal;
 }
 .footer-list {
+  display: flex;
 }
 .footer-item {
 }
@@ -484,6 +567,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  padding-bottom: 21px;
 }
 .footer-text {
   color: rgba(255, 255, 255, 0.55);
@@ -491,6 +575,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 178.571% */
+  margin-bottom: 98px;
+  width: 260px;
 }
 .footer-item-link {
   color: rgba(255, 255, 255, 0.55);
