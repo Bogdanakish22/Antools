@@ -212,7 +212,7 @@ body {
 }
 .popular-list {
   display: flex;
-  gap: 95px 20px;
+  gap: 95px 24px;
   flex-wrap: wrap;
   border-radius: 15px;
   background: #1e252b;
